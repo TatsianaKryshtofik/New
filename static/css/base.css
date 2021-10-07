@@ -1,0 +1,45 @@
+/* static/css/base.css */
+body {
+  font-family: 'Monotype corsiva', sans-serif;
+  font-size: 25px;
+}
+
+#body-base {
+    background-image: url(../../static/images/star.jpg);
+}
+
+#body-post-detail {
+    background-image: url(../../static/images/flower.jpg);
+}
+
+header {
+  border-bottom: 1px solid #888;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+header h1 a {
+  color: green;
+  text-decoration: none;
+}
+
+
+.navbar brand {
+    adding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 3rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.navbar {
+   position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-size: 3rem;
+}
